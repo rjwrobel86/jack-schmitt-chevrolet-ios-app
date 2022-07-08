@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57829EA6287879DB00827E68 /* Info2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57829EA5287879DB00827E68 /* Info2.plist */; };
+		57829EA928787B9900827E68 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 57829EA828787B9900827E68 /* FirebaseAnalytics */; };
+		57829EAB28787B9900827E68 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 57829EAA28787B9900827E68 /* FirebaseAnalyticsSwift */; };
+		57829EAD28787B9900827E68 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 57829EAC28787B9900827E68 /* FirebaseAuth */; };
+		57829EAF28787B9900827E68 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 57829EAE28787B9900827E68 /* FirebaseStorage */; };
+		57829EB128787EA500827E68 /* MDPMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57829EB028787EA500827E68 /* MDPMain.swift */; };
+		57829EB328787EAC00827E68 /* ModelsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57829EB228787EAC00827E68 /* ModelsList.swift */; };
+		57829EB528787EB600827E68 /* ModelsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57829EB428787EB600827E68 /* ModelsRow.swift */; };
+		579D6AD8287877E0003A3716 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579D6AD7287877E0003A3716 /* Launch Screen.storyboard */; };
+		579D6ADA28787897003A3716 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 579D6AD928787897003A3716 /* GoogleService-Info.plist */; };
+		579D6ADD28787922003A3716 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = 579D6ADC28787922003A3716 /* FacebookBasics */; };
+		579D6ADF28787922003A3716 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 579D6ADE28787922003A3716 /* FacebookCore */; };
+		579D6AE128787922003A3716 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 579D6AE028787922003A3716 /* FacebookLogin */; };
+		579D6AE328787922003A3716 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 579D6AE228787922003A3716 /* FacebookShare */; };
+		57E1F36A2878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3692878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift */; };
+		57E1F36C2878715600B8D8E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F36B2878715600B8D8E5 /* ContentView.swift */; };
+		57E1F36E2878715800B8D8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E1F36D2878715800B8D8E5 /* Assets.xcassets */; };
+		57E1F3712878715800B8D8E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E1F3702878715800B8D8E5 /* Preview Assets.xcassets */; };
+		57E1F378287871BC00B8D8E5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F377287871BC00B8D8E5 /* Menu.swift */; };
+		57E1F37A287871CF00B8D8E5 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F379287871CF00B8D8E5 /* Directions.swift */; };
+		57E1F37C287871D500B8D8E5 /* HandD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F37B287871D500B8D8E5 /* HandD.swift */; };
+		57E1F37E287871DA00B8D8E5 /* Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F37D287871DA00B8D8E5 /* Hours.swift */; };
+		57E1F380287871DF00B8D8E5 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F37F287871DF00B8D8E5 /* Map.swift */; };
+		57E1F382287871EA00B8D8E5 /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F381287871EA00B8D8E5 /* ContactUs.swift */; };
+		57E1F38A2878721700B8D8E5 /* VDP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3892878721700B8D8E5 /* VDP.swift */; };
+		57E1F38C2878722200B8D8E5 /* VehicleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F38B2878722200B8D8E5 /* VehicleRow.swift */; };
+		57E1F38E2878722B00B8D8E5 /* VehicleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F38D2878722B00B8D8E5 /* VehicleList.swift */; };
+		57E1F3902878723600B8D8E5 /* Specials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F38F2878723600B8D8E5 /* Specials.swift */; };
+		57E1F3922878732100B8D8E5 /* VehicleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3912878732100B8D8E5 /* VehicleModel.swift */; };
+		57E1F3942878732E00B8D8E5 /* ModelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3932878732E00B8D8E5 /* ModelModel.swift */; };
+		57E1F3962878734800B8D8E5 /* models.json in Resources */ = {isa = PBXBuildFile; fileRef = 57E1F3952878734800B8D8E5 /* models.json */; };
+		57E1F3982878735800B8D8E5 /* vehicles.json in Resources */ = {isa = PBXBuildFile; fileRef = 57E1F3972878735800B8D8E5 /* vehicles.json */; };
+		57E1F39A2878737200B8D8E5 /* ImageGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3992878737200B8D8E5 /* ImageGrid.swift */; };
+		57E1F39C2878737E00B8D8E5 /* VehPicArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F39B2878737E00B8D8E5 /* VehPicArrays.swift */; };
+		57E1F39E287873D300B8D8E5 /* ReviewLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F39D287873D300B8D8E5 /* ReviewLink.swift */; };
+		57E1F3A0287873F800B8D8E5 /* SilveradoLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F39F287873F800B8D8E5 /* SilveradoLink.swift */; };
+		57E1F3A22878740200B8D8E5 /* EquinoxLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3A12878740200B8D8E5 /* EquinoxLink.swift */; };
+		57E1F3A42878741100B8D8E5 /* FinanceLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3A32878741100B8D8E5 /* FinanceLink.swift */; };
+		57E1F3AE2878751400B8D8E5 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3AD2878751300B8D8E5 /* DataModel.swift */; };
+		57E1F3B02878752A00B8D8E5 /* DiscountsLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3AF2878752A00B8D8E5 /* DiscountsLink.swift */; };
+		57E1F3B22878761000B8D8E5 /* DataModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3B12878761000B8D8E5 /* DataModel2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57829EA5287879DB00827E68 /* Info2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info2.plist; sourceTree = "<group>"; };
+		57829EB028787EA500827E68 /* MDPMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPMain.swift; sourceTree = "<group>"; };
+		57829EB228787EAC00827E68 /* ModelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsList.swift; sourceTree = "<group>"; };
+		57829EB428787EB600827E68 /* ModelsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsRow.swift; sourceTree = "<group>"; };
+		579D6AD7287877E0003A3716 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		579D6AD928787897003A3716 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		57E1F3662878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack Schmitt Chevrolet of Wood River.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E1F3692878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift; sourceTree = "<group>"; };
+		57E1F36B2878715600B8D8E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57E1F36D2878715800B8D8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57E1F3702878715800B8D8E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57E1F377287871BC00B8D8E5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		57E1F379287871CF00B8D8E5 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		57E1F37B287871D500B8D8E5 /* HandD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandD.swift; sourceTree = "<group>"; };
+		57E1F37D287871DA00B8D8E5 /* Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hours.swift; sourceTree = "<group>"; };
+		57E1F37F287871DF00B8D8E5 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		57E1F381287871EA00B8D8E5 /* ContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
+		57E1F3892878721700B8D8E5 /* VDP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDP.swift; sourceTree = "<group>"; };
+		57E1F38B2878722200B8D8E5 /* VehicleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleRow.swift; sourceTree = "<group>"; };
+		57E1F38D2878722B00B8D8E5 /* VehicleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleList.swift; sourceTree = "<group>"; };
+		57E1F38F2878723600B8D8E5 /* Specials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specials.swift; sourceTree = "<group>"; };
+		57E1F3912878732100B8D8E5 /* VehicleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModel.swift; sourceTree = "<group>"; };
+		57E1F3932878732E00B8D8E5 /* ModelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelModel.swift; sourceTree = "<group>"; };
+		57E1F3952878734800B8D8E5 /* models.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models.json; sourceTree = "<group>"; };
+		57E1F3972878735800B8D8E5 /* vehicles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vehicles.json; sourceTree = "<group>"; };
+		57E1F3992878737200B8D8E5 /* ImageGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGrid.swift; sourceTree = "<group>"; };
+		57E1F39B2878737E00B8D8E5 /* VehPicArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehPicArrays.swift; sourceTree = "<group>"; };
+		57E1F39D287873D300B8D8E5 /* ReviewLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLink.swift; sourceTree = "<group>"; };
+		57E1F39F287873F800B8D8E5 /* SilveradoLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilveradoLink.swift; sourceTree = "<group>"; };
+		57E1F3A12878740200B8D8E5 /* EquinoxLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquinoxLink.swift; sourceTree = "<group>"; };
+		57E1F3A32878741100B8D8E5 /* FinanceLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceLink.swift; sourceTree = "<group>"; };
+		57E1F3AD2878751300B8D8E5 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		57E1F3AF2878752A00B8D8E5 /* DiscountsLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsLink.swift; sourceTree = "<group>"; };
+		57E1F3B12878761000B8D8E5 /* DataModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57E1F3632878715600B8D8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57829EAB28787B9900827E68 /* FirebaseAnalyticsSwift in Frameworks */,
+				579D6ADD28787922003A3716 /* FacebookBasics in Frameworks */,
+				579D6ADF28787922003A3716 /* FacebookCore in Frameworks */,
+				579D6AE328787922003A3716 /* FacebookShare in Frameworks */,
+				57829EA928787B9900827E68 /* FirebaseAnalytics in Frameworks */,
+				57829EAF28787B9900827E68 /* FirebaseStorage in Frameworks */,
+				57829EAD28787B9900827E68 /* FirebaseAuth in Frameworks */,
+				579D6AE128787922003A3716 /* FacebookLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57829EB628787EF000827E68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57829EB028787EA500827E68 /* MDPMain.swift */,
+				57829EB228787EAC00827E68 /* ModelsList.swift */,
+				57829EB428787EB600827E68 /* ModelsRow.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57E1F35D2878715600B8D8E5 = {
+			isa = PBXGroup;
+			children = (
+				57E1F3682878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River */,
+				57E1F3672878715600B8D8E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57E1F3672878715600B8D8E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57E1F3662878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57E1F3682878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River */ = {
+			isa = PBXGroup;
+			children = (
+				579D6AD7287877E0003A3716 /* Launch Screen.storyboard */,
+				57829EA5287879DB00827E68 /* Info2.plist */,
+				579D6AD928787897003A3716 /* GoogleService-Info.plist */,
+				57E1F3692878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift */,
+				57E1F36B2878715600B8D8E5 /* ContentView.swift */,
+				57829EB628787EF000827E68 /* Models */,
+				57E1F3AC287874CE00B8D8E5 /* Main */,
+				57E1F3AA2878746100B8D8E5 /* LInks */,
+				57E1F3A92878745800B8D8E5 /* HandDandC */,
+				57E1F3A52878742900B8D8E5 /* Data */,
+				57E1F3A62878743700B8D8E5 /* Structures */,
+				57E1F3A72878744000B8D8E5 /* Vehicles */,
+				57E1F3AB287874C400B8D8E5 /* Specials */,
+				57E1F36D2878715800B8D8E5 /* Assets.xcassets */,
+				57E1F36F2878715800B8D8E5 /* Preview Content */,
+			);
+			path = "Jack Schmitt Chevrolet of Wood River";
+			sourceTree = "<group>";
+		};
+		57E1F36F2878715800B8D8E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57E1F3702878715800B8D8E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57E1F3A52878742900B8D8E5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				57E1F3912878732100B8D8E5 /* VehicleModel.swift */,
+				57E1F3932878732E00B8D8E5 /* ModelModel.swift */,
+				57E1F3952878734800B8D8E5 /* models.json */,
+				57E1F3AD2878751300B8D8E5 /* DataModel.swift */,
+				57E1F3972878735800B8D8E5 /* vehicles.json */,
+				57E1F3B12878761000B8D8E5 /* DataModel2.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		57E1F3A62878743700B8D8E5 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				57E1F3992878737200B8D8E5 /* ImageGrid.swift */,
+				57E1F39B2878737E00B8D8E5 /* VehPicArrays.swift */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		57E1F3A72878744000B8D8E5 /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				57E1F3892878721700B8D8E5 /* VDP.swift */,
+				57E1F38B2878722200B8D8E5 /* VehicleRow.swift */,
+				57E1F38D2878722B00B8D8E5 /* VehicleList.swift */,
+			);
+			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		57E1F3A92878745800B8D8E5 /* HandDandC */ = {
+			isa = PBXGroup;
+			children = (
+				57E1F381287871EA00B8D8E5 /* ContactUs.swift */,
+				57E1F379287871CF00B8D8E5 /* Directions.swift */,
+				57E1F37B287871D500B8D8E5 /* HandD.swift */,
+				57E1F37D287871DA00B8D8E5 /* Hours.swift */,
+				57E1F37F287871DF00B8D8E5 /* Map.swift */,
+			);
+			path = HandDandC;
+			sourceTree = "<group>";
+		};
+		57E1F3AA2878746100B8D8E5 /* LInks */ = {
+			isa = PBXGroup;
+			children = (
+				57E1F39D287873D300B8D8E5 /* ReviewLink.swift */,
+				57E1F39F287873F800B8D8E5 /* SilveradoLink.swift */,
+				57E1F3A12878740200B8D8E5 /* EquinoxLink.swift */,
+				57E1F3A32878741100B8D8E5 /* FinanceLink.swift */,
+				57E1F3AF2878752A00B8D8E5 /* DiscountsLink.swift */,
+			);
+			path = LInks;
+			sourceTree = "<group>";
+		};
+		57E1F3AB287874C400B8D8E5 /* Specials */ = {
+			isa = PBXGroup;
+			children = (
+				57E1F38F2878723600B8D8E5 /* Specials.swift */,
+			);
+			path = Specials;
+			sourceTree = "<group>";
+		};
+		57E1F3AC287874CE00B8D8E5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				57E1F377287871BC00B8D8E5 /* Menu.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57E1F3652878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E1F3742878715800B8D8E5 /* Build configuration list for PBXNativeTarget "Jack Schmitt Chevrolet of Wood River" */;
+			buildPhases = (
+				57E1F3622878715600B8D8E5 /* Sources */,
+				57E1F3632878715600B8D8E5 /* Frameworks */,
+				57E1F3642878715600B8D8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jack Schmitt Chevrolet of Wood River";
+			packageProductDependencies = (
+				579D6ADC28787922003A3716 /* FacebookBasics */,
+				579D6ADE28787922003A3716 /* FacebookCore */,
+				579D6AE028787922003A3716 /* FacebookLogin */,
+				579D6AE228787922003A3716 /* FacebookShare */,
+				57829EA828787B9900827E68 /* FirebaseAnalytics */,
+				57829EAA28787B9900827E68 /* FirebaseAnalyticsSwift */,
+				57829EAC28787B9900827E68 /* FirebaseAuth */,
+				57829EAE28787B9900827E68 /* FirebaseStorage */,
+			);
+			productName = "Jack Schmitt Chevrolet of Wood River";
+			productReference = 57E1F3662878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57E1F35E2878715600B8D8E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					57E1F3652878715600B8D8E5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 57E1F3612878715600B8D8E5 /* Build configuration list for PBXProject "Jack Schmitt Chevrolet of Wood River" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57E1F35D2878715600B8D8E5;
+			packageReferences = (
+				579D6ADB28787922003A3716 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 57E1F3672878715600B8D8E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57E1F3652878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57E1F3642878715600B8D8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E1F3982878735800B8D8E5 /* vehicles.json in Resources */,
+				57E1F3712878715800B8D8E5 /* Preview Assets.xcassets in Resources */,
+				57E1F3962878734800B8D8E5 /* models.json in Resources */,
+				579D6AD8287877E0003A3716 /* Launch Screen.storyboard in Resources */,
+				57829EA6287879DB00827E68 /* Info2.plist in Resources */,
+				57E1F36E2878715800B8D8E5 /* Assets.xcassets in Resources */,
+				579D6ADA28787897003A3716 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57E1F3622878715600B8D8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E1F378287871BC00B8D8E5 /* Menu.swift in Sources */,
+				57E1F37E287871DA00B8D8E5 /* Hours.swift in Sources */,
+				57E1F36C2878715600B8D8E5 /* ContentView.swift in Sources */,
+				57E1F380287871DF00B8D8E5 /* Map.swift in Sources */,
+				57E1F3AE2878751400B8D8E5 /* DataModel.swift in Sources */,
+				57E1F3902878723600B8D8E5 /* Specials.swift in Sources */,
+				57829EB328787EAC00827E68 /* ModelsList.swift in Sources */,
+				57E1F38A2878721700B8D8E5 /* VDP.swift in Sources */,
+				57E1F37C287871D500B8D8E5 /* HandD.swift in Sources */,
+				57E1F3B22878761000B8D8E5 /* DataModel2.swift in Sources */,
+				57E1F38E2878722B00B8D8E5 /* VehicleList.swift in Sources */,
+				57E1F3B02878752A00B8D8E5 /* DiscountsLink.swift in Sources */,
+				57E1F3A42878741100B8D8E5 /* FinanceLink.swift in Sources */,
+				57E1F39C2878737E00B8D8E5 /* VehPicArrays.swift in Sources */,
+				57E1F3942878732E00B8D8E5 /* ModelModel.swift in Sources */,
+				57E1F3A0287873F800B8D8E5 /* SilveradoLink.swift in Sources */,
+				57E1F36A2878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift in Sources */,
+				57E1F38C2878722200B8D8E5 /* VehicleRow.swift in Sources */,
+				57E1F382287871EA00B8D8E5 /* ContactUs.swift in Sources */,
+				57E1F3A22878740200B8D8E5 /* EquinoxLink.swift in Sources */,
+				57E1F39A2878737200B8D8E5 /* ImageGrid.swift in Sources */,
+				57E1F3922878732100B8D8E5 /* VehicleModel.swift in Sources */,
+				57E1F37A287871CF00B8D8E5 /* Directions.swift in Sources */,
+				57829EB128787EA500827E68 /* MDPMain.swift in Sources */,
+				57829EB528787EB600827E68 /* ModelsRow.swift in Sources */,
+				57E1F39E287873D300B8D8E5 /* ReviewLink.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		57E1F3722878715800B8D8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57E1F3732878715800B8D8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57E1F3752878715800B8D8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jack Schmitt Chevrolet of Wood River/Preview Content\"";
+				DEVELOPMENT_TEAM = H3U8XDXNHS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BobsNotSoft.Jack-Schmitt-Chevrolet-of-Wood-River";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57E1F3762878715800B8D8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jack Schmitt Chevrolet of Wood River/Preview Content\"";
+				DEVELOPMENT_TEAM = H3U8XDXNHS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BobsNotSoft.Jack-Schmitt-Chevrolet-of-Wood-River";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57E1F3612878715600B8D8E5 /* Build configuration list for PBXProject "Jack Schmitt Chevrolet of Wood River" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E1F3722878715800B8D8E5 /* Debug */,
+				57E1F3732878715800B8D8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E1F3742878715800B8D8E5 /* Build configuration list for PBXNativeTarget "Jack Schmitt Chevrolet of Wood River" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E1F3752878715800B8D8E5 /* Debug */,
+				57E1F3762878715800B8D8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		579D6ADB28787922003A3716 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		57829EA828787B9900827E68 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		57829EAA28787B9900827E68 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		57829EAC28787B9900827E68 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		57829EAE28787B9900827E68 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		579D6ADC28787922003A3716 /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 579D6ADB28787922003A3716 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		579D6ADE28787922003A3716 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 579D6ADB28787922003A3716 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		579D6AE028787922003A3716 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 579D6ADB28787922003A3716 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		579D6AE228787922003A3716 /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 579D6ADB28787922003A3716 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 57E1F35E2878715600B8D8E5 /* Project object */;
+}
