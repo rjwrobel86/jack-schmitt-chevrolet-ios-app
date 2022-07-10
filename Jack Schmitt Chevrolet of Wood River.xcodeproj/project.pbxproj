@@ -21,6 +21,7 @@
 		579D6ADF28787922003A3716 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 579D6ADE28787922003A3716 /* FacebookCore */; };
 		579D6AE128787922003A3716 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 579D6AE028787922003A3716 /* FacebookLogin */; };
 		579D6AE328787922003A3716 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 579D6AE228787922003A3716 /* FacebookShare */; };
+		57A29C392878D2C5005A152D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A29C382878D2C5005A152D /* Login.swift */; };
 		57E1F36A2878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3692878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift */; };
 		57E1F36C2878715600B8D8E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F36B2878715600B8D8E5 /* ContentView.swift */; };
 		57E1F36E2878715800B8D8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E1F36D2878715800B8D8E5 /* Assets.xcassets */; };
@@ -70,6 +71,7 @@
 		57829EB428787EB600827E68 /* ModelsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsRow.swift; sourceTree = "<group>"; };
 		579D6AD7287877E0003A3716 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		579D6AD928787897003A3716 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		57A29C382878D2C5005A152D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		57E1F3662878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack Schmitt Chevrolet of Wood River.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E1F3692878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift; sourceTree = "<group>"; };
 		57E1F36B2878715600B8D8E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,6 +131,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		57C0236A287AB35E0025B660 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				57A29C382878D2C5005A152D /* Login.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		57E1F35D2878715600B8D8E5 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +160,7 @@
 			children = (
 				579D6AD7287877E0003A3716 /* Launch Screen.storyboard */,
 				57829EA5287879DB00827E68 /* Info2.plist */,
+				57C0236A287AB35E0025B660 /* Authentication */,
 				579D6AD928787897003A3716 /* GoogleService-Info.plist */,
 				57E1F3692878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift */,
 				57E1F36B2878715600B8D8E5 /* ContentView.swift */,
@@ -352,6 +363,7 @@
 				57E1F3A42878741100B8D8E5 /* FinanceLink.swift in Sources */,
 				57E1F39C2878737E00B8D8E5 /* VehPicArrays.swift in Sources */,
 				57E1F3942878732E00B8D8E5 /* ModelModel.swift in Sources */,
+				57A29C392878D2C5005A152D /* Login.swift in Sources */,
 				57E1F3A0287873F800B8D8E5 /* SilveradoLink.swift in Sources */,
 				57E1F36A2878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift in Sources */,
 				57E1F38C2878722200B8D8E5 /* VehicleRow.swift in Sources */,
