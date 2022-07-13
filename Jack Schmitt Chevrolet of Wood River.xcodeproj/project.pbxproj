@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		572E6CA4287CA0EA00CD9A81 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 572E6CA3287CA0EA00CD9A81 /* FirebaseFirestore */; };
+		572E6CA6287CA0EA00CD9A81 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 572E6CA5287CA0EA00CD9A81 /* FirebaseFirestoreSwift */; };
+		572E6CD4287CAAD800CD9A81 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 572E6CD3287CAAD800CD9A81 /* Auth0 */; };
+		572E6CD6287CAB0400CD9A81 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 572E6CD5287CAB0400CD9A81 /* Auth0.plist */; };
 		57829EA6287879DB00827E68 /* Info2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57829EA5287879DB00827E68 /* Info2.plist */; };
 		57829EA928787B9900827E68 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 57829EA828787B9900827E68 /* FirebaseAnalytics */; };
 		57829EAB28787B9900827E68 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 57829EAA28787B9900827E68 /* FirebaseAnalyticsSwift */; };
 		57829EAD28787B9900827E68 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 57829EAC28787B9900827E68 /* FirebaseAuth */; };
-		57829EAF28787B9900827E68 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 57829EAE28787B9900827E68 /* FirebaseStorage */; };
 		57829EB128787EA500827E68 /* MDPMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57829EB028787EA500827E68 /* MDPMain.swift */; };
 		57829EB328787EAC00827E68 /* ModelsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57829EB228787EAC00827E68 /* ModelsList.swift */; };
 		57829EB528787EB600827E68 /* ModelsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57829EB428787EB600827E68 /* ModelsRow.swift */; };
@@ -21,7 +24,6 @@
 		579D6ADF28787922003A3716 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 579D6ADE28787922003A3716 /* FacebookCore */; };
 		579D6AE128787922003A3716 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 579D6AE028787922003A3716 /* FacebookLogin */; };
 		579D6AE328787922003A3716 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 579D6AE228787922003A3716 /* FacebookShare */; };
-		57A29C392878D2C5005A152D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A29C382878D2C5005A152D /* Login.swift */; };
 		57E1F36A2878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F3692878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift */; };
 		57E1F36C2878715600B8D8E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1F36B2878715600B8D8E5 /* ContentView.swift */; };
 		57E1F36E2878715800B8D8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E1F36D2878715800B8D8E5 /* Assets.xcassets */; };
@@ -65,13 +67,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		572E6CD1287CAA4A00CD9A81 /* Jack-Schmitt-Chevrolet-of-Wood-River-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Jack-Schmitt-Chevrolet-of-Wood-River-Info.plist"; sourceTree = SOURCE_ROOT; };
+		572E6CD5287CAB0400CD9A81 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		57829EA5287879DB00827E68 /* Info2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info2.plist; sourceTree = "<group>"; };
 		57829EB028787EA500827E68 /* MDPMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPMain.swift; sourceTree = "<group>"; };
 		57829EB228787EAC00827E68 /* ModelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsList.swift; sourceTree = "<group>"; };
 		57829EB428787EB600827E68 /* ModelsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsRow.swift; sourceTree = "<group>"; };
 		579D6AD7287877E0003A3716 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		579D6AD928787897003A3716 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		57A29C382878D2C5005A152D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		57E1F3662878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack Schmitt Chevrolet of Wood River.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E1F3692878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift; sourceTree = "<group>"; };
 		57E1F36B2878715600B8D8E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,9 +113,11 @@
 				57829EAB28787B9900827E68 /* FirebaseAnalyticsSwift in Frameworks */,
 				579D6ADD28787922003A3716 /* FacebookBasics in Frameworks */,
 				579D6ADF28787922003A3716 /* FacebookCore in Frameworks */,
+				572E6CD4287CAAD800CD9A81 /* Auth0 in Frameworks */,
 				579D6AE328787922003A3716 /* FacebookShare in Frameworks */,
 				57829EA928787B9900827E68 /* FirebaseAnalytics in Frameworks */,
-				57829EAF28787B9900827E68 /* FirebaseStorage in Frameworks */,
+				572E6CA6287CA0EA00CD9A81 /* FirebaseFirestoreSwift in Frameworks */,
+				572E6CA4287CA0EA00CD9A81 /* FirebaseFirestore in Frameworks */,
 				57829EAD28787B9900827E68 /* FirebaseAuth in Frameworks */,
 				579D6AE128787922003A3716 /* FacebookLogin in Frameworks */,
 			);
@@ -121,6 +126,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		572E6C79287C9AD600CD9A81 /* PostStuff */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PostStuff;
+			sourceTree = "<group>";
+		};
+		572E6CA2287CA0EA00CD9A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		57829EB628787EF000827E68 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +153,6 @@
 		57C0236A287AB35E0025B660 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				57A29C382878D2C5005A152D /* Login.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -144,6 +162,7 @@
 			children = (
 				57E1F3682878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River */,
 				57E1F3672878715600B8D8E5 /* Products */,
+				572E6CA2287CA0EA00CD9A81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,12 +177,15 @@
 		57E1F3682878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River */ = {
 			isa = PBXGroup;
 			children = (
+				572E6CD1287CAA4A00CD9A81 /* Jack-Schmitt-Chevrolet-of-Wood-River-Info.plist */,
+				572E6CD5287CAB0400CD9A81 /* Auth0.plist */,
 				579D6AD7287877E0003A3716 /* Launch Screen.storyboard */,
+				572E6C79287C9AD600CD9A81 /* PostStuff */,
 				57829EA5287879DB00827E68 /* Info2.plist */,
-				57C0236A287AB35E0025B660 /* Authentication */,
 				579D6AD928787897003A3716 /* GoogleService-Info.plist */,
 				57E1F3692878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift */,
 				57E1F36B2878715600B8D8E5 /* ContentView.swift */,
+				57C0236A287AB35E0025B660 /* Authentication */,
 				57829EB628787EF000827E68 /* Models */,
 				57E1F3AC287874CE00B8D8E5 /* Main */,
 				57E1F3AA2878746100B8D8E5 /* LInks */,
@@ -283,7 +305,9 @@
 				57829EA828787B9900827E68 /* FirebaseAnalytics */,
 				57829EAA28787B9900827E68 /* FirebaseAnalyticsSwift */,
 				57829EAC28787B9900827E68 /* FirebaseAuth */,
-				57829EAE28787B9900827E68 /* FirebaseStorage */,
+				572E6CA3287CA0EA00CD9A81 /* FirebaseFirestore */,
+				572E6CA5287CA0EA00CD9A81 /* FirebaseFirestoreSwift */,
+				572E6CD3287CAAD800CD9A81 /* Auth0 */,
 			);
 			productName = "Jack Schmitt Chevrolet of Wood River";
 			productReference = 57E1F3662878715600B8D8E5 /* Jack Schmitt Chevrolet of Wood River.app */;
@@ -316,6 +340,7 @@
 			packageReferences = (
 				579D6ADB28787922003A3716 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 				57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				572E6CD2287CAAD700CD9A81 /* XCRemoteSwiftPackageReference "Auth0" */,
 			);
 			productRefGroup = 57E1F3672878715600B8D8E5 /* Products */;
 			projectDirPath = "";
@@ -338,6 +363,7 @@
 				57829EA6287879DB00827E68 /* Info2.plist in Resources */,
 				57E1F36E2878715800B8D8E5 /* Assets.xcassets in Resources */,
 				579D6ADA28787897003A3716 /* GoogleService-Info.plist in Resources */,
+				572E6CD6287CAB0400CD9A81 /* Auth0.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +389,6 @@
 				57E1F3A42878741100B8D8E5 /* FinanceLink.swift in Sources */,
 				57E1F39C2878737E00B8D8E5 /* VehPicArrays.swift in Sources */,
 				57E1F3942878732E00B8D8E5 /* ModelModel.swift in Sources */,
-				57A29C392878D2C5005A152D /* Login.swift in Sources */,
 				57E1F3A0287873F800B8D8E5 /* SilveradoLink.swift in Sources */,
 				57E1F36A2878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift in Sources */,
 				57E1F38C2878722200B8D8E5 /* VehicleRow.swift in Sources */,
@@ -506,6 +531,7 @@
 				DEVELOPMENT_TEAM = H3U8XDXNHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jack-Schmitt-Chevrolet-of-Wood-River-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -538,6 +564,7 @@
 				DEVELOPMENT_TEAM = H3U8XDXNHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jack-Schmitt-Chevrolet-of-Wood-River-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +610,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		572E6CD2287CAAD700CD9A81 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -602,6 +637,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		572E6CA3287CA0EA00CD9A81 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		572E6CA5287CA0EA00CD9A81 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		572E6CD3287CAAD800CD9A81 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 572E6CD2287CAAD700CD9A81 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
 		57829EA828787B9900827E68 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -616,11 +666,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
-		};
-		57829EAE28787B9900827E68 /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 57829EA728787B9900827E68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
 		};
 		579D6ADC28787922003A3716 /* FacebookBasics */ = {
 			isa = XCSwiftPackageProductDependency;
