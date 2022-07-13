@@ -37,14 +37,18 @@ struct ContentView: View {
       // 5
       VStack {
         
-        Text("SwiftUI Login Demo")
-          .padding()
+        Text("Welcome to the Jack Schmitt App")
+              .padding().font(.title)
+          
+        Text("Please login for awesome deals and prizes!")
+              .padding().font(.caption)
         
         // 6
         Button("Log in") {
           login()
         }
         .padding()
+        .foregroundColor(.blue)
         
       }
       
