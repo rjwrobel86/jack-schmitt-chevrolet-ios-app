@@ -8,15 +8,18 @@
 import SwiftUI
 
 struct VehicleList: View {
+    
+@State private var searchstring = ""
+    
     var body: some View {
+        NavigationView {
         List(vehicle) { vehicle in
             NavigationLink {
                 VDP(vehicle: vehicle)
             } label: {
                 VehicleRow(vehicle: vehicle)
             }
-        }.navigationTitle("On Sale")
-            .refreshable {
+        }
     }
 }
 }

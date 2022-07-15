@@ -11,6 +11,7 @@
 		572E6CA6287CA0EA00CD9A81 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 572E6CA5287CA0EA00CD9A81 /* FirebaseFirestoreSwift */; };
 		572E6CD4287CAAD800CD9A81 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 572E6CD3287CAAD800CD9A81 /* Auth0 */; };
 		572E6CD6287CAB0400CD9A81 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 572E6CD5287CAB0400CD9A81 /* Auth0.plist */; };
+		573A36D028808A5400F08AF9 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A36CF28808A5400F08AF9 /* APICall.swift */; };
 		57829EA6287879DB00827E68 /* Info2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57829EA5287879DB00827E68 /* Info2.plist */; };
 		57829EA928787B9900827E68 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 57829EA828787B9900827E68 /* FirebaseAnalytics */; };
 		57829EAB28787B9900827E68 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 57829EAA28787B9900827E68 /* FirebaseAnalyticsSwift */; };
@@ -69,6 +70,7 @@
 /* Begin PBXFileReference section */
 		572E6CD1287CAA4A00CD9A81 /* Jack-Schmitt-Chevrolet-of-Wood-River-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Jack-Schmitt-Chevrolet-of-Wood-River-Info.plist"; sourceTree = SOURCE_ROOT; };
 		572E6CD5287CAB0400CD9A81 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		573A36CF28808A5400F08AF9 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
 		57829EA5287879DB00827E68 /* Info2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info2.plist; sourceTree = "<group>"; };
 		57829EB028787EA500827E68 /* MDPMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPMain.swift; sourceTree = "<group>"; };
 		57829EB228787EAC00827E68 /* ModelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsList.swift; sourceTree = "<group>"; };
@@ -126,13 +128,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		572E6C79287C9AD600CD9A81 /* PostStuff */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PostStuff;
-			sourceTree = "<group>";
-		};
 		572E6CA2287CA0EA00CD9A81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,11 +173,11 @@
 			isa = PBXGroup;
 			children = (
 				572E6CD1287CAA4A00CD9A81 /* Jack-Schmitt-Chevrolet-of-Wood-River-Info.plist */,
-				572E6CD5287CAB0400CD9A81 /* Auth0.plist */,
-				579D6AD7287877E0003A3716 /* Launch Screen.storyboard */,
-				572E6C79287C9AD600CD9A81 /* PostStuff */,
-				57829EA5287879DB00827E68 /* Info2.plist */,
 				579D6AD928787897003A3716 /* GoogleService-Info.plist */,
+				572E6CD5287CAB0400CD9A81 /* Auth0.plist */,
+				57829EA5287879DB00827E68 /* Info2.plist */,
+				579D6AD7287877E0003A3716 /* Launch Screen.storyboard */,
+				573A36CF28808A5400F08AF9 /* APICall.swift */,
 				57E1F3692878715600B8D8E5 /* Jack_Schmitt_Chevrolet_of_Wood_RiverApp.swift */,
 				57E1F36B2878715600B8D8E5 /* ContentView.swift */,
 				57C0236A287AB35E0025B660 /* Authentication */,
@@ -400,6 +395,7 @@
 				57829EB128787EA500827E68 /* MDPMain.swift in Sources */,
 				57829EB528787EB600827E68 /* ModelsRow.swift in Sources */,
 				57E1F39E287873D300B8D8E5 /* ReviewLink.swift in Sources */,
+				573A36D028808A5400F08AF9 /* APICall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

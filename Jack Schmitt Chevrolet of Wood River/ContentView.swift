@@ -7,50 +7,33 @@
 
 import SwiftUI
 import Auth0
+
 struct ContentView: View {
   
-  // 1
-  @State private var isAuthenticated = false
+@State private var isAuthenticated = false
 
 
   var body: some View {
-
-    // 2
     if isAuthenticated {
-      
-      // 3
-      VStack {
-        
-        Menu()
-        
-        // 4
-        Button("Log out") {
-            logout()
-            
-        }
-        .padding()
-        
+        VStack {
+            Menu()
       }
-      
     } else {
-    
-      // 5
-      VStack {
+        VStack {
         
         Text("Welcome to the Jack Schmitt App")
               .padding().font(.title)
           
         Text("Please login for awesome deals and prizes!")
-              .padding().font(.caption)
+              .padding().font(.subheadline)
         
-        // 6
-        Button("Log in") {
-          login()
+        ZStack {
+            Rectangle().size(width:60,height:30)
+            Button("Log in") {
+                login()
+            }
         }
-        .padding()
-        .foregroundColor(.blue)
-        
-      }
+    }
       
     } // if isAuthenticated
     

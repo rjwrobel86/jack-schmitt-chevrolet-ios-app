@@ -9,7 +9,6 @@ import Foundation
 
 var vehicle: [Vehicle] = load("vehicles.json")
 
-
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 

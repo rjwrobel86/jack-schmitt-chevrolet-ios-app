@@ -18,7 +18,7 @@ struct Jack_Schmitt_Chevrolet_of_Wood_RiverApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Menu()
             
         }
     }
